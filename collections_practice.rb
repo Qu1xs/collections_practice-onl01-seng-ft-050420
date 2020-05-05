@@ -43,5 +43,5 @@ end
 
 def add_s(array)
   ary = array.each_with_index.collect {|item, i| item + "s" if i != 1}
-  return ary
+  ary
 end
