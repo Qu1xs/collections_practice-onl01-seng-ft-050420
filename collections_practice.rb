@@ -1,5 +1,6 @@
 def sort_array_asc(array)
-  return array.sort
+  ary = array.sort
+  ary
 end
 
 def sort_array_desc(array)
@@ -22,7 +23,8 @@ def swap_elements_from_to(array, index, destination_index)
 end
 
 def reverse_array(array)
-  return array.reverse
+  ary = array.reverse
+  ary
 end
 
 def kesha_maker(array)
@@ -31,7 +33,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.find_all {|i| i.start_with?"a" }
+  ary = array.find_all {|i| i.start_with?"a" }
+  ary
 end
 
 def sum_array(array)
