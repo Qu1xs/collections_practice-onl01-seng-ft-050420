@@ -3,12 +3,13 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  return array.sort.reverse
+  ary =  array.sort.reverse
+  ary
 end
 
 def sort_array_char_count(array)
-  temp = array.sort{|a, b| a.length <=> b.length}
-  temp
+  ary = array.sort{|a, b| a.length <=> b.length}
+  ary
 end
 
 def swap_elements(array)
