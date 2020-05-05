@@ -28,7 +28,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  ary = array.each.map {|item, i| i  }
+  ary = array.each {|i| i[2] = "$"}
   ary
 end
 
