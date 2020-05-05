@@ -8,7 +8,7 @@ end
 
 def sort_array_char_count(array)
   temp = array.sort{|a, b| a.length <=> b.length}
-  return temp
+  temp
 end
 
 def swap_elements(array)
